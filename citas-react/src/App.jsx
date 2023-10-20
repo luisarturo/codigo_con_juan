@@ -7,11 +7,15 @@ function App() {
   // const edad = 18
 
   return (
-    <>
+    <div className='container mx-auto mt-20'>
       <Header />
-      <ListadoPacientes />
-      <Formulario />
-    </>
+      
+      <div className="mt-12 md:flex">
+        <Formulario />
+        <ListadoPacientes />
+      </div>
+
+    </div>
   )
 }
 
